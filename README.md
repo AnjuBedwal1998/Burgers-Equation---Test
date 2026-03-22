@@ -2,7 +2,7 @@
 
 This benchmark is designed to isolate a fundamental limitation of baseline PINNs for nonlinear hyperbolic problems. The initial condition is smooth, no source term is present, and the only difficulty arises from finite-time shock formation induced by nonlinear flux. 
 
-Let $\Omega=[-1,1]$ be a bounded spatial domain with boundary $\partial\Omega$ , and \mathcal{Q}:=\Omega\times(0,0.5] denote the corresponding space-time domain.
+Let $\Omega=[-1,1]$ be a bounded spatial domain with boundary $\partial\Omega$ , and $\mathcal{Q}:=\Omega\times(0,0.5]$ denote the corresponding space-time domain.
 
 As a specific instance of the general Burgers equation, we are setting the source term to zero, i.e., $s(x,t,u)\equiv0$. The problem is supplemented with the smooth initial condition $$u_{0}(x)=\sin(\pi x),\qquad x\in\Omega.$$ 
 Although the initial data is smooth, the initial slope leads to finite-time gradient blow-up and the formation of a shock at $x=0.$
