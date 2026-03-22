@@ -1,4 +1,6 @@
 # Burgers-Equation---Test
+We consider a class of nonlinear hyperbolic conservation laws, posed in one spatial dimension, of the general form
+$$ u_{t}+\partial_{x}f(u)=s(x,t,u),\qquad(x,t)\in\Omega\times(0,T],$$ where $u(x,t)$ denotes the unknown scalar field, f(u) is a nonlinear flux function which is set to $u^{2}/2$ throughout this section until mentioned explicitly, and $s(x,t,u)$ represents a source/sink term.
 
 This benchmark is designed to isolate a fundamental limitation of baseline PINNs for nonlinear hyperbolic problems. The initial condition is smooth, no source term is present, and the only difficulty arises from finite-time shock formation induced by nonlinear flux. 
 
