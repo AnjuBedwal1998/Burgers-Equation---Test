@@ -1,7 +1,9 @@
 # Burgers-Equation---Test
 We consider a class of nonlinear hyperbolic conservation laws, posed in one spatial dimension, of the general form
 
-$ u_{t}+\partial_{x}f(u)=s(x,t,u),\quad (x,t)\in\Omega\times(0,T] $
+\begin{equation}
+u_{t}+\partial_{x}f(u)=s(x,t,u),\quad (x,t)\in\Omega\times(0,T]
+\end{equation}
 
 $ u_{t}+\partial_{x}f(u)=s(x,t,u),\quad (x,t)\in\Omega\times(0,T] $
 
