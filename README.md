@@ -1,7 +1,7 @@
 # Burgers-Equation---Test
 We consider a class of nonlinear hyperbolic conservation laws, posed in one spatial dimension, of the general form
 
-$ u_{t}+\partial_{x}f(u)=s(x,t,u),\qquad(x,t)\in\Omega\times(0,T]$
+$ u_{t}+\partial_{x}f(u)=s(x,t,u),\quad (x,t)\in\Omega\times(0,T] $
 
 where $u(x,t)$ denotes the unknown scalar field, f(u) is a nonlinear flux function which is set to $u^{2}/2$ throughout this section until mentioned explicitly, and $s(x,t,u)$ represents a source/sink term.
 
